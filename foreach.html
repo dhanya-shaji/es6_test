@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+          //  var text="";
+            var num=[2, 3, 4, 5,7];
+            //num.forEach(myfun);
+          var num2=num.map(myfun);
+            document.getElementById("demo").innerHTML=num2;
+            function myfun(value,index,array){
+                //text=text+value+"<br>";
+                return value*2;
+            }
+        </script>
+    </body>
+</html>
